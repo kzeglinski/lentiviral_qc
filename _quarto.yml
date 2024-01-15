@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Lentiviral RNA sequencing"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - bioinf.qmd
+format:
+  html:
+    fig-width: 10
+    fig-height: 6
+    grid:
+      body-width: 1000px
+      margin-width: 200px
+    theme: styles.scss
+    toc: true
+    monobackgroundcolor: '#FFEBC6'
+    highlight-style: atom-one
+    header-includes: |-
+      <link rel = "shortcut icon" href = "favicon.svg" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,700;1,700&family=Poppins:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
+
+

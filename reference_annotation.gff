@@ -1,0 +1,12 @@
+##gff-version 3
+##sequence-region LV6 1 9345
+LV6	feature	misc_structure	410	608	.	+	.	label=LTR
+LV6	feature	misc_structure	652	686	.	+	.	label=SL1
+LV6	feature	misc_structure	691	709	.	+	.	label=SL2
+LV6	feature	misc_structure	721	734	.	+	.	label=SL3
+LV6	feature	misc_structure	748	762	.	+	.	label=SL4
+LV6	feature	promoter	2396	2748	.	+	.	label=promoter
+LV6	feature	CDS	2790	4301	.	+	0	label=Transgene
+LV6	feature	misc_feature	4307	4896	.	+	.	label=WPRE;note=WPRE element
+LV6	feature	misc_feature	5034	5698	.	+	.	label=Insulator
+LV6	feature	polyA_signal	5825	6273	.	+	.	label=polyA
